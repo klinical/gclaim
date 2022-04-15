@@ -1,0 +1,10 @@
+name: Gclaim
+version: '${project.version}'
+main: net.globemc.gclaim.Gclaim
+description: Shitty plugin
+api-version: 1.18
+
+commands:
+  generate-territory:
+    description: Generate a new territory and grow it
+    usage: /generateterritory
